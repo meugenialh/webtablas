@@ -1,0 +1,57 @@
+
+
+.hamburguesa{
+  top:30px;
+  left:30px;
+}
+
+.cabMenu button{
+  width: 80px;
+}
+
+.cabMenu hr
+{
+    margin: 10px;
+}
+
+.hamburguesa nav{
+  width: 100px;
+  margin-left: 20%;
+  text-align: center;
+
+}
+.hamburguesa ul {
+  list-style: none;
+}
+
+.hamburguesa a{
+  text-decoration: none;
+}
+
+.hamburguesa li {
+  background-color: #f4f3f3;
+  font-size: 16px;
+  margin: 1px;
+  width: 100%;
+  border-radius: 0;
+}
+
+.hamburguesa li:hover{
+  background-color: lightgrey;
+}
+
+.hamburguesa li a{
+  padding: 2px;
+  color: #333;
+}
+
+/*a:hover{
+color: white;
+}*/
+
+.enabled-menu{
+  display: block;
+}
+.disabled-menu{
+  display: none;
+}
